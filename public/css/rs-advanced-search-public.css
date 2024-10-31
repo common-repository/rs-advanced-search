@@ -1,0 +1,35 @@
+.rs-advanced-search-form input[type="search"].search-field,
+.widget_rs_advanced_search .rs-advanced-search-form input[type="search"].search-field {
+	width: 100%;
+}
+.rs-advanced-search-form input[type="search"].search-field.search-field-hide,
+.widget_rs_advanced_search .rs-advanced-search-form input[type="search"].search-field.search-field-hide {
+	display: none;
+}
+.rs-advanced-search-form .rs-advanced-search-inline-select {
+	display: inline-block;
+	width: 50%;
+	padding: 0 10px;
+	margin: 10px 0;
+}
+.rs-advanced-search-form .rs-advanced-search-inline-select:nth-of-type(odd) {
+	padding-left: 0;
+}
+.rs-advanced-search-form .rs-advanced-search-inline-select:nth-of-type(even) {
+	padding-right: 0;
+}
+.rs-advanced-search-form .rs-advanced-search-inline-select select {
+	width: 100%;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-apprance: none;
+	appearance: none;
+	padding: 0.4615384615em 0.5384615385em;
+	border: 1px solid #d1d1d1;
+	border-radius: 0;
+	margin: 0;
+}
+.rs-advanced-search-form .rs-advanced-search-inline-select select:focus {
+	border-color: #007acc;
+	outline: none;
+}
